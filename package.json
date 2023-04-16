@@ -10,18 +10,18 @@
     "list": "forever list",
     "stop": "forever stopall"
   },
-  "author": "AlekseyDenisov",
+  "author": "Stanislav",
   "license": "ISC",
   "dependencies": {
-    "faker": "^5.5.3",
-    "forever": "^3.0.4",
-    "koa": "^2.13.1",
+    "@faker-js/faker": "^7.5.0",
+    "forever": "^4.0.1",
+    "koa": "^2.13.4",
     "koa-body": "^4.2.0",
-    "koa-router": "^10.0.0",
+    "koa-router": "^10.1.1",
     "koa-slow": "^2.1.0",
     "koa2-cors": "^2.0.6"
   },
   "engines": {
-    "node": "10.x"
+    "node": "18.x"
   }
 }
