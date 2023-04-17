@@ -1,36 +1,32 @@
 {
   "name": "ajh-hw-12-b",
   "version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"prestart": "npm install",
-		"start": "forever server.js",
-		"watch": "forever -w server.js"
-	},
-	"dependencies": {
-		"@koa/cors": "^4.0.0",
-		"forever": "^2.0.0",
-		"koa": "^2.13.1",
-		"koa-body": "^4.2.0",
-		"koa-combine-routers": "^4.0.2",
-		"koa-router": "^12.0.0",
-		"koa-static": "^5.0.0",
-		"uuid": "^8.3.2",
-		"ws": "^8.13.0"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/NastyaKatyushkina/ajh-hw-12-b.git"
-	},
-	"keywords": [],
-	"author": "@dnd-developer",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/NastyaKatyushkina/ajh-hw-12-b/issues"
-	},
-	"homepage": "https://github.com/NastyaKatyushkina/ajh-hw-12-b#readme",
-	"devDependencies": {
-		"@faker-js/faker": "^7.6.0"
-	}
+  "description": "Service Worker BackEnd",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node index.js",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NastyaKatyushkina/ajh-hw-12-b.git"
+  },
+  "author": "Valentin Panov",
+  "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "faker": "^5.5.3",
+    "koa-router": "^10.0.0",
+    "koa-slow": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
